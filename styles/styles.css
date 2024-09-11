@@ -1,0 +1,163 @@
+/* ----------------- reset ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;              
+    color: inherit;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+}
+
+::selection {
+    color: green;
+    background-color: black;
+}
+
+/* ------------- cards ------------ */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.nohover img:hover{
+    transform: scale(1.0);
+    transition: transform 0ms linear;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 100ms linear;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #c6e613;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.imgprods {
+    width: 75%;
+    height: auto;
+}
+
+.bg-body-sucess{
+    background-color: #f8f8de;
+}
+
+/* ---------------------------------- header --------------------------------- */
+
+.fontstd {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.colorstd {
+    color: #c6e613;
+}
+
+.bgcolorlight {
+    background-color: #f8f8de;
+}
+
+.bgcolordark {
+    background-color: #3d6042;
+    height: 1.5rem;
+}
+
+.fontcolorfoot {
+    color: #3d6042;
+}
+
+.divheight {
+    height: 3rem;
+}
+
+.bgimageindex{
+    background-image: url(../assets/bolsos.jpg);
+    object-fit: auto;
+    background-position: center top;
+    background-color: #f0f0f0;
+}
+
+.bgimagecontact{
+    background-image: url(../assets/arbejas.jpg);
+    object-fit: auto;
+    background-position: center top;
+    background-color: #f0f0f0;
+}
+
+.opa07 {
+    opacity: 0.8;
+}
+
+.opa1 {
+    opacity: 1;
+}

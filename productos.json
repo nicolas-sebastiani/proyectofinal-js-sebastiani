@@ -1,0 +1,162 @@
+[
+    {
+        "id": 3,
+        "nombre": "Avena Arrollada",
+        "precio": 3900,
+        "imagen": "../assets/avena-arrollada-fina.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 1,
+        "nombre": "Arroz Integral",
+        "precio": 5100,
+        "imagen": "../assets/arrozintegral.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Lentejas",
+        "precio": 4400,
+        "imagen": "../assets/lenteja.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Quinoa Roja",
+        "precio": 5150,
+        "imagen": "../assets/quinoa-roja.jpg",
+        "unidad": "500Gr",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Poroto Pallar",
+        "precio": 3100,
+        "imagen": "../assets/poroto-pallar.jpg",
+        "unidad": "800Gr",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Cebada Perlada",
+        "precio": 6000,
+        "imagen": "../assets/cebada-perlada.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Lenteja Turca",
+        "precio": 3500,
+        "imagen": "../assets/lenteja-turca.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Couscous",
+        "precio": 2900,
+        "imagen": "../assets/couscous.jpg",
+        "unidad": "300Gr",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Soja Texturizada",
+        "precio": 6000,
+        "imagen": "../assets/soja-texturizada.jpg",
+        "unidad": "500Gr",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Garbanzo",
+        "precio": 5850,
+        "imagen": "../assets/garbanzo.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Poroto Tape",
+        "precio": 5000,
+        "imagen": "../assets/poroto-tape.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Poroto Aduki",
+        "precio": 2900,
+        "imagen": "../assets/poroto-aduki.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 13,
+        "nombre": "Arroz Jazmin",
+        "precio": 4600,
+        "imagen": "../assets/arroz-jazmin.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 14,
+        "nombre": "Arroz Jazmin Negro",
+        "precio": 5300,
+        "imagen": "../assets/arroz-jazmin-negro.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 15,
+        "nombre": "Garbanzo Cubierto",
+        "precio": 1900,
+        "imagen": "../assets/garbanzo-cubierto.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 16,
+        "nombre": "Germen de Trigo",
+        "precio": 3700,
+        "imagen": "../assets/germen-de-trigo.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 17,
+        "nombre": "Harina de Avena",
+        "precio": 2900,
+        "imagen": "../assets/harina-de-avena.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 18,
+        "nombre": "Salvado de Trigo",
+        "precio": 2900,
+        "imagen": "../assets/salvado-de-trigo.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 19,
+        "nombre": "Trigo Burgol Grueso",
+        "precio": 2900,
+        "imagen": "../assets/trigo-burgol-grueso.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    },
+    {
+        "id": 20,
+        "nombre": "Trigo Sarraceno",
+        "precio": 2900,
+        "imagen": "../assets/trigo-sarraceno.jpg",
+        "unidad": "1Kg",
+        "cantidad": 1
+    }
+]
