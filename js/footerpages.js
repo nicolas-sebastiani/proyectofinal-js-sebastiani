@@ -1,3 +1,5 @@
+const currentYear = new Date().getFullYear();
+
 const footy = document.getElementById('footy');
 footy.className = 'container-fluid p-0';
 const divlinks = document.createElement('div');
@@ -33,7 +35,7 @@ footy.appendChild(navlinks);
 const divcontainer = document.createElement('div');
 divcontainer.className = 'container-fluid bgcolorlight';
 divcontainer.innerHTML = `<div class="fs-5 colorstd display320">
-                            <a class="d-inline fontcolorfoot" href="https://www.google.com/maps" target="_blank">
+                            <a class="d-inline fontcolorfoot" href="https://www.google.com/maps/place/Av.+San+Martín+1668,+S2919+Villa+Constitución,+Santa+Fe/@-33.231144,-60.3293579,17z/data=!4m5!3m4!1s0x95b76c6aa6c67f85:0xc84e4570e41024d6!8m2!3d-33.2311485!4d-60.3267776?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
                                 <i class="bi bi-geo-alt-fill"></i>
                             </a>
                             <span class="fontcolorfoot">San Martin 1668, Villa Constitucion, Argentina.</span>
@@ -42,6 +44,8 @@ divcontainer.innerHTML = `<div class="fs-5 colorstd display320">
                                 <i class="bi bi-whatsapp iconcolor"></i>
                             </a>
                             <span class="fontcolorfoot">+54 3400 356-548</span>
-                        </div>
-                        <a class="navbar-brand nohover" href="#"><img class="img-fluid nohover" src="../assets/greenhoop.jpg" alt="logo"></a>`;
+                            <br>
+                            <p class="fontcolorfoot">© ${currentYear} Green Hoop Company.</p>
+                            </div>
+                            <a class="navbar-brand nohover" href="#"><img class="img-fluid nohover" src="../assets/greenhoop.jpg" alt="logo"></a>`;
 navlinks.appendChild(divcontainer);

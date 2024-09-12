@@ -147,9 +147,16 @@ h2 {
     background-color: #f0f0f0;
 }
 
-.bgimagecontact{
-    background-image: url(../assets/arbejas.jpg);
+.bgimagecart{
+    background-image: url(../assets/fondo2.jpg);
     object-fit: auto;
+    background-position: center top;
+    background-color: #f0f0f0;
+}
+
+.bgimagecontact{
+    background-image: url(../assets/fondo10.jpg);
+    object-fit: cover;
     background-position: center top;
     background-color: #f0f0f0;
 }
