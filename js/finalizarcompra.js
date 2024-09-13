@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
             confirmButtonText: "Si, finalizar",
             input: 'radio',
             inputOptions: {
-                'opcion1': 'Envío a tu domicilio.',
-                'opcion2': 'Retira en nuestro local.'
+                'Envio a tu domicilio.': 'Envío a tu domicilio.',
+                'Retira en nuestro local.': 'Retira en nuestro local.'
             },
             inputValidator: (value) => {
                 if (!value) {
@@ -29,10 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 confirmButtonColor: "#198754",
             });
             localStorage.clear();
-            location.reload();
             setTimeout(() => {
-                window.location.replace(`../index.html`);
-            },2000);
+                location.reload();
+                window.location.href = '../index.html';
+            },3000)
         }
     });
 });
